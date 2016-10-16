@@ -1,5 +1,5 @@
-# use latest Node LTS
-FROM node:argon-slim
+# use latest Node LTS (Argon)
+FROM node:argon
 
 # install Ionic and Cordova
-RUN npm i -g ionic@beta cordova
+RUN npm i -g ionic cordova
